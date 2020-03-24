@@ -2,7 +2,11 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
@@ -10,7 +14,7 @@
 
      <style type="text/css">
         * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(Paper.jpg); }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(noise.jpg); }
         .clear { clear: both; }
         #page-wrap { width: 800px; margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
@@ -26,6 +30,26 @@
         dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
         dd { width: 600px; float: right; }
         dd.clear { float: none; margin: 0; height: 15px; }
+        /* Make sure that padding behaves as expected */
+        * {box-sizing:border-box}
+
+        /* Container for skill bars */
+        .container {
+          width: 100%; /* Full width */
+          background-color: #ddd; /* Grey background */
+        }
+
+        .skills {
+          text-align: right; /* Right-align text */
+          padding-top: 10px; /* Add top padding */
+          padding-bottom: 10px; /* Add bottom padding */
+          color: white; /* White text color */
+        }
+
+        .html {width: 85%; background-color: #0c5357;} /* Green */
+        .css {width: 80%; background-color: #0c5357;} /* Blue */
+        .js {width: 55%; background-color: #0c5357;} /* Red */
+
      </style>
 </head>
 
@@ -64,7 +88,7 @@
             <dt>Education</dt>
             <dd>
                 <h2>Tecnologico de Monterrey, Queretaro</h2>
-                <p><strong>Major:</strong> Digital Systems and Robotics<br /></p>
+                <p><strong>Major:</strong> Digital Systems and Robotics (In Progress)<br /></p>
             </dd>
             
             <dd class="clear"></dd>
@@ -72,35 +96,52 @@
             <dt>Skills</dt>
             <dd>
                 <h2>Computer skills</h2>
-                <p>I'm learning to program in different types of programming lenguages, I've also learned to program embebed systems as part of my studies</p>
+                <br>
+             <p>Java</p>
+            <div class="container">
+              <div class="skills html">85%</div>
+            </div>
+            <br>
+
+            <p>C</p>
+            <div class="container">
+              <div class="skills css">80%</div>
+            </div>
+            <br>
+
+            <p>JavaScript</p>
+            <div class="container">
+              <div class="skills js">55%</div>
+            </div>
+            <br>
                 
                 <h2>Life skills</h2>
-                <p>I'm good at leading people, taking action when it's needed, and finally I'm specialy good at problem solving.</p>
+                <p>I'm good at leading people, taking action when it's needed, and finally I'm specialy good at problem solving, self sufficient.</p>
             </dd>
             
             <dd class="clear"></dd>
             
             <dt>Experience</dt>
             <dd>
-                <h2>Summer camp <span>Assistant - Queretaro, QRO - 2009-2009</span></h2>
+                <h2>PK Global<span>Trainee - Queretaro, QRO 2019-Present</span></h2>
                 <ul>
-                    <li>Take care of 20 kids</li>
-                    <li>Entretain those kids with games</li>
-                    <li>Think of creative ways to teach the kids</li>
+                    <li>Being capacitated in the first intense training program (ITP), in Queretaro</li>
+                    <li>Sharpening my skills as programmers, learning how to work in a real project</li>
+                    <li>Also training in the front end with JavaScript, HTML, React and others.</li>
                 </ul>
                 
                 <h2>Tea Store <span>Bartender/Server - Queretaro, QRO  2016- 2017</span></h2>
                 <ul>
                     <li>Selled Tea</li>
                     <li>Managed the local</li>
-                    <li>Cleaned the containers that were used</li>
+                    <li>Mantain the local clean</li>
                 </ul> 
             </dd>
             
             <dd class="clear"></dd>
             
             <dt>Hobbies</dt>
-            <dd>I like playing videogames, I like most sport, I like to program, also I like to learn new things in a daily manner.</dd>
+            <dd>I like playing videogames, I like most sport, I like to program, also I like to learn new things.</dd>
             
             <dd class="clear"></dd>
             
